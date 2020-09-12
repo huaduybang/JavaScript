@@ -1,0 +1,97 @@
+<!-- 
+    Ngày học: 09/12/2020
+
+    ---- ---- ---- Nội dung chính ---- ---- ---- 
+Built-in là gì?
+- Đó chính là một số hàm js xây dựng sẵn chúng ta chỉ việc gọi nó lên và sử dụng
+Một số built-in căn bản thường được sử dụng trong javascript
+    + alert // xuất ra một cảnh báo
+    + console // in ra một thông báo...
+    + confirm // in ra 1 thông báo kèm nút ok và cancel...
+    + prompt // in ra 1 thông báo kèm ô input...
+    + set timeout // thực hiện code sau một thời gian cán đích...
+    + set interval // thực hiện sau 1s
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Built-in</title>
+    <link rel="stylesheet" href="../Bootstrap4/css/bootstrap.css">
+    <style>
+        .container{
+            border: 1px solid #000;
+            color: white;
+        }
+            .container header{
+                background-color: rgb(226, 21, 21);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100px;
+        }
+            .container main{
+                background-color: rgb(21, 230, 14);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+        }
+            .container footer{
+                background-color: rgb(26, 100, 238);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        }
+        .container .box{
+            border: 1px solid rgb(247, 243, 243);
+            margin: 10px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            Một số built-in được căn bản trong JS <br> 
+        </header>
+        <main class="row">
+            <div class="col-2 box">
+                alert
+            </div>
+            <div class="col-2 box">
+                console 
+            </div>
+            <div class="col-2 box">
+                prompt
+            </div>
+            <div class="col-2 box">
+                confirm
+            </div>
+            <div class="col-2 box">
+                set timeout 
+            </div>
+            <div class="col-2 box">
+                set interval
+            </div>
+           
+            
+        </main>
+        <footer class="row">
+            <p>
+                + alert // xuất ra một cảnh báo <br>
+                + console // in ra một thông báo... <br>
+                + confirm // in ra 1 thông báo kèm nút ok và cancel... <br>
+                + prompt // in ra 1 thông báo kèm ô input... <br>
+                + set timeout // thực hiện code sau một thời gian cán đích... <br>
+                + set interval // thực hiện sau 1s
+            </p>
+        </footer>
+    </div>
+    <script src="/Bootstrap4/js/bootstrap.js"></script>
+</body>
+</html>
